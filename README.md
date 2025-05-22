@@ -1,9 +1,5 @@
 # Cash Book App
 
-========================================
-      日本語版 - README
-========================================
-
 ## 概要
 **Cash Book App** は、収支管理を簡単に行うためのアプリです。  
 このアプリは、**NW.js** と **NW-Builder** を使用して開発されました。
@@ -30,10 +26,7 @@
 - **Node.js（ビルドのみ）**
 - **Inno Setup（Windows用インストーラー作成）**
 
-
-========================================
-      English Version - README
-========================================
+# ====== Englisth version ======
 
 ## Overview
 **Cash Book App** is an application designed to simplify income and expense management.  
