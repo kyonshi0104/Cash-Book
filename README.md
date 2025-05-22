@@ -13,8 +13,6 @@
 2. インストーラーを実行  
 3. 指示に従ってインストール完了後、アプリを使用可能  
 
-✅ **フォルダ名に日本語やスペースを含んでも問題ありません**  
-
 ## ライセンス
 このアプリのライセンスは [三条項BSDライセンス](https://github.com/kyonshi0104/Cash-Book/blob/main/LICENSE) に基づいています。  
 詳細はリンク先をご確認ください。
@@ -40,8 +38,6 @@ This app has been **tested on Windows 11**.
 1. [Download the installer](https://github.com/kyonshi0104/Cash-Book/releases)  
 2. Run the installer  
 3. Follow the instructions to complete the installation  
-
-✅ **You can use folder names that include Japanese characters and spaces without any issues**.
 
 ## License
 This app is licensed under the [BSD 3-Clause License](https://github.com/kyonshi0104/Cash-Book/blob/main/LICENSE).  
