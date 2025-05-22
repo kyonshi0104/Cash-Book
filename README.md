@@ -16,7 +16,7 @@
 ✅ **フォルダ名に日本語やスペースを含んでも問題ありません**  
 
 ## ライセンス
-このアプリのライセンスは [三条項BSDライセンス](https://github.com/kyonshi0104/Cash-Book?tab=BSD-3-Clause-1-ov-file) に基づいています。  
+このアプリのライセンスは [三条項BSDライセンス](https://github.com/kyonshi0104/Cash-Book/blob/main/LICENSE) に基づいています。  
 詳細はリンク先をご確認ください。
 
 ## クレジット
@@ -44,7 +44,7 @@ This app has been **tested on Windows 11**.
 ✅ **You can use folder names that include Japanese characters and spaces without any issues**.
 
 ## License
-This app is licensed under the [BSD 3-Clause License](https://github.com/kyonshi0104/Cash-Book?tab=BSD-3-Clause-1-ov-file).  
+This app is licensed under the [BSD 3-Clause License](https://github.com/kyonshi0104/Cash-Book/blob/main/LICENSE).  
 For details, please check the link above.
 
 ## Credits
