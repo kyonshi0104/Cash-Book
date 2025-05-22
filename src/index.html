@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小遣い帳</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/sc.css">
+    <script src="js/history_update.js"></script>
+    <script src="js/firstload.js"></script>
+</head>
+<body>
+    <button id="top-left" class="floating-button" onclick="changeMonth('back')">«</button>
+    <button id="top-right" class="floating-button" onclick="changeMonth('next')" disabled>»</button>
+    <div id="ym">2025年4月</div>
+    <div id="calendar">
+        <table id="exampleTable">
+            <thead>
+                <tr>
+                    <th>日付</th>
+                    <th>内容</th>
+                    <th>金額</th>
+                    <th>残金</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <footer class="footer" style="display: flex;">
+        <input type="date" id="datepicker" placeholder="日付">
+        <input type="text" id="contentpicker" placeholder="内容">
+        <input type="number" step="1" id="amountpicker" placeholder="金額" onkeydown="return event.keyCode !== 69" step="100">
+        <select id="dropdown">
+            <option value="option1">支出</option>
+            <option value="option2">収入</option>
+        </select>
+        <button id="deleteButton" onclick="deleteFocusedTransaction()" disabled>削除</button>
+        <button id="addButton" onclick="saveTransactionFromInputs()" disabled>追加</button>
+</body>
+</html>

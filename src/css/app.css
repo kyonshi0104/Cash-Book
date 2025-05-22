@@ -1,0 +1,215 @@
+body {
+    overflow-y: hidden;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    cursor: pointer;
+}
+
+tr {
+    background-color: #f2f2f2;
+    transition: ease-in-out 0.15s;
+}
+
+tr:not(.custom-focus):hover {
+    background-color: #cfcfcf;
+}
+
+.custom-focus {
+    background-color: #7c91af;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#calendar {
+    margin: 20px auto;
+    width: 100%;
+}
+
+#ym {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 20px;
+    color: #007BFF;
+}
+
+#datepicker {
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#contentpicker, #amountpicker {
+    width: 25vh;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 11px 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#datepicker:hover, #contentpicker:hover, #dropdown:hover, #amountpicker:hover {
+    border-color: #aaa;
+    background-color: #fff;
+}
+
+#datepicker:focus, #contentpicker:focus, #dropdown:focus, #amountpicker:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+#dropdown {
+    width: 15vh;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 11px 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#calendar {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+#addButton {
+    margin: 10px;
+    width: 10%;
+    background-color: #6fc583;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+#addButton:hover {
+    background-color: #396e39;
+}
+
+#addButton:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(111, 197, 131, 0.5);
+}
+
+#deleteButton {
+    margin: 10px;
+    width: 10%;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+#deleteButton:hover {
+    background-color: #c62828;
+}
+
+#deleteButton:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(244, 67, 54, 0.5);
+}
+
+#deleteButton:disabled, #addButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.floating-button {
+    position: fixed;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background-color: #6e7bb3;
+    border-radius: 50px;
+}
+
+#top-left {
+    top: 20px;
+    left: 25px;
+}
+
+#top-right {
+    top: 20px;
+    right: 25px;
+}
+
+#top-right:disabled, #top-left:disabled {
+    background-color: #ccc;
+}

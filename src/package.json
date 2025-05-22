@@ -1,0 +1,18 @@
+{
+    "name": "cash_book",
+    "version": "0.9.0",
+    "main": "index.html",
+    "window": {
+        "width": 900,
+        "height": 600,
+        "min-width": 900,
+        "min-height": 600,
+        "icon": "icon.ico",
+        "resizable": true
+    },
+    "nwBuilder": {
+        "winIco": "assets/win-icon.ico",
+        "linuxIcon": "assets/linux-icon.png",
+        "macIcns": "assets/mac-icon.icns"
+    }
+}
