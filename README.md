@@ -6,7 +6,7 @@
 
 ## 動作環境
 このアプリは **Windows 11** で動作確認をしていますが、  
-**自分でビルドすれば macOS / Linux でも動作可能** です。
+自分でビルドすれば macOS / Linux でも動作可能です。
 
 ## インストール
 1. [インストーラーをダウンロード](https://github.com/kyonshi0104/Cash-Book/releases)  
